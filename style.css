@@ -1,0 +1,123 @@
+:root {
+    font-family: 'Roboto';
+    background-color: #e0def4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: grid;
+    justify-content: center;
+    background-color: #232136;
+    padding: 20px;
+}
+
+.header button {
+    width: fit-content;
+    justify-self: center;
+    margin: 10px;
+    background-color: #f6c177;
+    font-size: 20px;
+    border-width: 0;
+    border-radius: 10px;
+    padding: 15px;
+    color: #2a273f;
+}
+
+.header button:active {
+    background-color: #eb6f92;
+}
+
+.header h1 {
+    text-align: center;
+    margin: 10px;
+    color: #e0def4;
+    font-size: 80px;
+}
+
+dialog {    
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #faf4ed;
+    border-width: 0;
+    border-radius: 20px;
+
+    color: #575279;
+    text-align: center;
+}
+
+dialog > * {
+    text-align: center;
+    justify-self: center;
+    margin: 10px;
+}
+
+dialog > form {
+    display: grid;
+    gap: 5px;
+    text-align: left;
+    justify-self: center;
+    padding: 5%;
+}
+
+dialog > button, input[type = submit] {
+    width: fit-content;
+    height: fit-content;
+    background-color: #ea9d34;
+    color: #fffaf3;
+    border-radius: 10px;
+    padding: 10px;
+    border-width: 0;
+    justify-self: center;
+}
+
+dialog button:active, input[type = submit]:active {
+    background-color: #eb6f92;
+}
+
+.content {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 20px;
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+    background-color: #908caa;
+    margin: 20px;
+    border-radius: 10px;
+    justify-self: center;
+
+    display: grid;
+    justify-content: center;
+}
+
+.card > * {
+    margin: 10px;
+    justify-self: center;
+    color: #e0def4;
+}
+
+.card > button {
+    background-color: #f6c177;
+    font-size: 15px;
+    border-width: 0;
+    border-radius: 10px;
+    padding: 5px;
+    color: #2a273f;
+    width: 175px;
+}
+
+.card button:active {
+    background-color: #eb6f92;
+}

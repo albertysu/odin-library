@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<body>
+    <title>Library</title>
+</head>
+<body>
+    <div class="main-container">
+        <dialog>
+            <h1>Add a Book</h1>
+            <form action="">
+                <label for="title">Book Title</label>
+                <input type="text" id="title" name="title" required />
+
+                <label for="author">Author</label>
+                <input type="text" id="author" name="author" required />
+
+                <label for="pages">Pages</label>
+                <input type="number" id="pages" name="pages" required />
+
+                <div>
+                    <label for="read">Read</label>
+                    <input type="checkbox" id="read" name="read"/>
+                </div>
+
+                <input type="submit" value="Add to Library" method="dialog">
+            </form>
+            <button type="button">Close</button>
+        </dialog>
+        <div class="header">
+            <h1>Library</h1>
+            <button type="button">New Book</button>
+        </div>
+
+        <div class="content">
+        </div>
+    </div>
+</body>
+</html>
